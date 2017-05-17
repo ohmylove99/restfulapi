@@ -1,0 +1,9 @@
+{
+  "configPath": "/my/development/path",
+  "port": 8081,
+  "dbConfig": {
+      "host": "localhost",
+      "port": 3306,
+      "dbName": "test"
+    }
+}

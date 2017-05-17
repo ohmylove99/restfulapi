@@ -1,10 +1,12 @@
 var mysql=require('mysql');
+var config = require('config');
+var dbConfig = config.get('dbConfig');
 var connection=mysql.createPool({
 
-host:'localhost',
+host:dbConfig.host,
 user:'staffdb',
 password:'staffdb',
-database:'staffdb'
+database:dbConfig.dbName
 
 
 });

@@ -1,0 +1,10 @@
+{
+  "name": "My App Name",
+  "configPath": "/my/default/path",
+  "port": 3000,
+  "dbConfig": {
+      "host": "localhost",
+      "port": 3306,
+      "dbName": "staffdb"
+    }
+}
