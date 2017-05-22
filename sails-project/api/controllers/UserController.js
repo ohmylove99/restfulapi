@@ -18,6 +18,10 @@ module.exports = {
      //res.view('400', {message: 'Sorry, you need to tell us the ID of the FOO you want!'});
 	 res.badRequest('Sorry, you need to tell us the ID of the FOO you want!');
    }
+  },
+  index: function(req, res) {
+		console.log('index() from UserController');
+		res.status(200).json('Hello from Typescript!');
   }
 };
 
